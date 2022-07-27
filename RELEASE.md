@@ -1,5 +1,22 @@
 # Bootstrap3 DokuWiki Template ChangeLog
 
+## [v2022-07-27]
+
+This release increase the compatibility with Hogfather and the upcoming Igor release and fix some regression.
+
+Enjoy!
+
+### Notable changes
+    * Created new class for manage DokuWiki events
+    * Display tag plugin only on "show" action
+    * Updated Material icons
+    * #552: Added initial support for new Form Events
+    * #545: Fix "Cannot declare class dokuwiki\Menu\Item\AbstractItem"
+    * #556: Fixed .svg could not be recognized as an icon file
+    * #530: Added tabbox plugin support
+    * #551: Fixed regression with tagalerts plugin
+
+
 ## [v2021-03-11]
 
 This release increase the compatibility with Hogfather and fix some regression. Added support for Microsoft Teams and BS3 styles in jQueryUI.
@@ -597,6 +614,7 @@ In this release improved the user experience with new icons for Configuration Ma
 
 
 [Develop]: https://github.com/giterlizzi/dokuwiki-template-bootstrap3/compare/master...develop
+[v2022-07-27]: https://github.com/giterlizzi/dokuwiki-template-bootstrap3/compare/v2021-03-11...v2022-07-27
 [v2021-03-11]: https://github.com/giterlizzi/dokuwiki-template-bootstrap3/compare/v2020-08-28...v2021-03-11
 [v2020-08-28]: https://github.com/giterlizzi/dokuwiki-template-bootstrap3/compare/v2020-07-29...v2020-08-28
 [v2020-07-29]: https://github.com/giterlizzi/dokuwiki-template-bootstrap3/compare/v2020-04-04...v2020-07-29
